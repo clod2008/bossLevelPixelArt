@@ -1873,11 +1873,13 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+			
 		}
 
 			.image.featured img {
 				display: block;
 				width: 100%;
+				background-color: transparent;
 			}
 
 /* Icon */
