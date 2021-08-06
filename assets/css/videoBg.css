@@ -49,7 +49,7 @@
   
   @media (pointer: coarse) and (hover: none) {
     .video-bg {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      background: url('/images/Mt_Baker.mp4') black no-repeat center center scroll;
     }
   
     .video-bg video {
