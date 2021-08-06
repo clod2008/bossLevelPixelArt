@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
 	<link rel="stylesheet" href="./assets/css/overwrite.css">
+	<link rel="stylesheet" href="./assets/css/videoBg.css">
 
 </head>
 
@@ -246,14 +247,19 @@
 
 		</article>
 
-		<!-- CTA -->
-		<section id="cta">
+		<!-- CTA  id="cta"-->
+		<section  class="video-bg ">
+			<div class="overlay"></div>
+			
+			<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+				<source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+			</video>
 
-			<header>
+			<header class="container ">
 				<h2>Ready to do <strong>something</strong>?</h2>
 				<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
 			</header>
-			<footer>
+			<footer class=" container ">
 				<ul class="buttons">
 					<li><a href="#" class="button primary">Take My Money</a></li>
 					<li><a href="#" class="button">LOL Wut</a></li>
